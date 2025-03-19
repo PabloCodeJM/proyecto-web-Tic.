@@ -1,0 +1,225 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f4f7fa;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+
+h1, h2, h3 {
+    color: #2c3e50;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #e67e22;
+}
+h2 {
+    font-size: 41px;
+    font-weight: 500;
+ color: #27ae60;
+}
+
+
+
+
+   h3 {
+    font-size: 29px;
+    font-weight: 400;
+    color: #8e44ad;
+}
+
+p {     
+    font-size: 18px;
+ text-align: justify;
+    margin-bottom: 20px;
+    color: #34495e;
+}
+
+a {
+    text-decoration: none;
+    color: #f39c12;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+    color: #e74c3c;
+    transform: scale(1.05);
+}
+
+#Lista-coches a, #Coches-lista {
+    display: block;
+    padding: 10px;
+    color: #f39c12;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #ecf0f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Lista-coches a:hover, #Coches-lista:hover {
+    color: #e74c3c;
+    background-color: #f39c12;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}      
+.container {
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+}
+.box {
+ background-color: #fff;
+    padding: 20px;
+ border-radius: 15px;
+ box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+
+#imagen-henryford {
+    width: 100%;
+  height: auto;
+    border-radius: 15px;
+    display: block;
+    margin: 20px 0;
+    transition: transform 0.5s ease-in-out;
+}
+
+#imagen-henryford:hover {
+    transform: scale(1.05);
+ }
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td{
+    border: 2px solid #e67e22;
+ border-radius: 10px;
+}
+
+th, td {
+    padding: 15px;
+  text-align: center;
+    background-color: #f7f9f9; 
+}
+
+th {
+    background-color: #34495e;
+color: white;
+    font-weight: bold;
+}
+
+td {
+    background-color: #ecf0f1;
+}
+ul, ol {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+    font-size: 19px;
+    color: #e67e22;
+}
+
+
+footer {
+    text-align: center;
+ margin-top: 40px;
+ padding: 20px;
+  background-color: #2c3e50;
+    color: white;
+  border-radius: 10px;
+width: fit-content;
+
+}
+
+footer a {
+    color: #e74c3c;
+ font-weight: bold;
+}
+
+footer a:hover {
+ color: #f39c12; 
+    text-decoration: underline;
+}
+
+.foto-coche-feo {
+    width: 100%;
+  max-width: 400px;
+    height: auto;
+  display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+#parrafo-index, #parrafo-imagen, #debajo-imagen, #quieres-saber-mas {
+    text-align: center;
+font-size: 24px;
+    margin-bottom: 20px;
+    color: #e67e22; 
+}
+
+
+.enlaces-index {
+    display: block;
+    font-size: 24px;    padding: 15px;
+    margin: 20px 0;
+background-color: #27ae60; 
+    color: white;
+    text-align: center;  border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.enlaces-index:hover {
+    background-color: #16a085; 
+}
+
+#boton-info {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 19px;
+    color: white;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#boton-info:hover {
+    background-color: #c0392b;
+}
+#pincha-aquí {
+    font-weight: bold;
+    color: #27ae60; 
+    font-size: 19px;
+}
+#pincha-aquí:hover {
+    color: #f39c12; 
+    text-decoration: underline;
+}
+@keyframes colorFondo {
+    0% { background-color: #fdd3be; }
+    50% { background-color: #f2ba5b; }
+    100% { background-color: #f2b765; }
+}
+
+
+/*esto va con el keyframes porque es la animacion*/
+body {
+    animation: colorFondo 10s ease-in-out infinite; 
+}
